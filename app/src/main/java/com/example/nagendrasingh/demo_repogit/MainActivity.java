@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         System.out.println("HELLO");
+
+        System.out.println("HI");
+
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
